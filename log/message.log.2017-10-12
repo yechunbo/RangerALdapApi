@@ -1,0 +1,559 @@
+2017-10-12 12:59:15  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 1348 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 12:59:15  [ main:3 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 12:59:16  [ main:47 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 12:59:16 CST 2017]; root of context hierarchy
+2017-10-12 12:59:16  [ background-preinit:535 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 12:59:17  [ main:1354 ] - [ INFO ]  start load properties .......
+2017-10-12 12:59:17  [ main:1406 ] - [ INFO ]  load properties is finished .........
+2017-10-12 12:59:17  [ main:1810 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 12:59:17  [ localhost-startStop-1:2002 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1958 ms
+2017-10-12 12:59:18  [ localhost-startStop-1:2189 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 12:59:18  [ localhost-startStop-1:2193 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 12:59:18  [ localhost-startStop-1:2194 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 12:59:18  [ localhost-startStop-1:2195 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 12:59:18  [ localhost-startStop-1:2195 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 12:59:18  [ main:2750 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 12:59:16 CST 2017]; root of context hierarchy
+2017-10-12 12:59:18  [ main:2886 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 12:59:18  [ main:2888 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 12:59:18  [ main:2889 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 12:59:18  [ main:2890 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 12:59:18  [ main:2892 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 12:59:18  [ main:2892 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 12:59:18  [ main:2893 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 12:59:18  [ main:2893 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 12:59:18  [ main:2894 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 12:59:18  [ main:2895 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 12:59:18  [ main:2895 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 12:59:18  [ main:2895 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 12:59:18  [ main:2899 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 12:59:18  [ main:2900 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 12:59:18  [ main:2932 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 12:59:18  [ main:2933 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 12:59:18  [ main:2974 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 12:59:19  [ main:3765 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 12:59:19  [ main:3830 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 12:59:19  [ main:3834 ] - [ INFO ]  Started Main in 4.059 seconds (JVM running for 4.49)
+2017-10-12 12:59:49  [ http-nio-8567-exec-1:33850 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 12:59:49  [ http-nio-8567-exec-1:33871 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2017-10-12 12:59:49  [ http-nio-8567-exec-1:33972 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 12:59:49  [ http-nio-8567-exec-1:33986 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 12:59:50  [ http-nio-8567-exec-1:34780 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":15,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive","hbase_autoCreateDb","hive_autoCreateDb","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 12:59:50  [ http-nio-8567-exec-1:34790 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 12:59:51  [ http-nio-8567-exec-1:35516 ] - [ INFO ]  UpdatePolicyById is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Mon Jan 01 00:00:00 CST 222116120} version={16} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={67db7aa8ee407407be6df201a0a3b37c} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }RangerPolicyItemAccess={type={update} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 13:00:20  [ http-nio-8567-exec-2:64433 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 13:00:20  [ http-nio-8567-exec-2:64435 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 13:00:20  [ http-nio-8567-exec-2:64540 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":16,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive","hbase_autoCreateDb","hive_autoCreateDb","hive_autoCreateDb","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 13:00:20  [ http-nio-8567-exec-2:64542 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 13:00:20  [ http-nio-8567-exec-2:64774 ] - [ INFO ]  UpdatePolicyById is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Wed Jan 01 00:00:00 CST 222145727} version={17} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={1566d8d3ffc7874341d0d3c0f9b5db25} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }RangerPolicyItemAccess={type={update} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 15:02:06  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 3580 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 15:02:06  [ main:1 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 15:02:06  [ main:45 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 15:02:06 CST 2017]; root of context hierarchy
+2017-10-12 15:02:06  [ background-preinit:305 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 15:02:06  [ main:959 ] - [ INFO ]  start load properties .......
+2017-10-12 15:02:06  [ main:960 ] - [ INFO ]  load properties is finished .........
+2017-10-12 15:02:07  [ main:1367 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 15:02:07  [ localhost-startStop-1:1535 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1492 ms
+2017-10-12 15:02:07  [ localhost-startStop-1:1722 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 15:02:07  [ localhost-startStop-1:1728 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 15:02:07  [ localhost-startStop-1:1729 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 15:02:07  [ localhost-startStop-1:1730 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 15:02:07  [ localhost-startStop-1:1730 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 15:02:12  [ main:6105 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 15:02:06 CST 2017]; root of context hierarchy
+2017-10-12 15:02:12  [ main:6160 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 15:02:12  [ main:6161 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:02:12  [ main:6163 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 15:02:12  [ main:6164 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 15:02:12  [ main:6165 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:02:12  [ main:6166 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 15:02:12  [ main:6167 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 15:02:12  [ main:6167 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:02:12  [ main:6167 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 15:02:12  [ main:6168 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:02:12  [ main:6168 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 15:02:12  [ main:6168 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 15:02:12  [ main:6171 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 15:02:12  [ main:6172 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 15:02:12  [ main:6202 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:02:12  [ main:6203 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:02:12  [ main:6237 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:02:12  [ main:6786 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 15:02:12  [ main:6844 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 15:02:12  [ main:6849 ] - [ INFO ]  Started Main in 7.062 seconds (JVM running for 7.473)
+2017-10-12 15:06:03  [ http-nio-8567-exec-1:237360 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 15:06:03  [ http-nio-8567-exec-1:237380 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-10-12 15:06:03  [ http-nio-8567-exec-1:237394 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 15:06:03  [ http-nio-8567-exec-1:237409 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:06:03  [ http-nio-8567-exec-1:237829 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:06:03  [ http-nio-8567-exec-1:237843 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:06:04  [ http-nio-8567-exec-1:238064 ] - [ WARN ]  UpdatePolicyById is fail, the fail message is=PUT http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12 returned a response status of 400 Bad Request
+2017-10-12 15:07:00  [ http-nio-8567-exec-3:294193 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 15:07:00  [ http-nio-8567-exec-3:294194 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:07:00  [ http-nio-8567-exec-3:294302 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:07:00  [ http-nio-8567-exec-3:294303 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:07:00  [ http-nio-8567-exec-3:294495 ] - [ WARN ]  UpdatePolicyById is fail, the fail message is=PUT http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12 returned a response status of 400 Bad Request
+2017-10-12 15:07:24  [ http-nio-8567-exec-5:318415 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:07:24  [ http-nio-8567-exec-5:318416 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:07:24  [ http-nio-8567-exec-5:318532 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:07:24  [ http-nio-8567-exec-5:318533 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:07:24  [ http-nio-8567-exec-5:318657 ] - [ WARN ]  UpdatePolicyById is fail, the fail message is=PUT http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12 returned a response status of 400 Bad Request
+2017-10-12 15:08:01  [ http-nio-8567-exec-6:355847 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 15:08:01  [ http-nio-8567-exec-6:355848 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:08:02  [ http-nio-8567-exec-6:356180 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:08:02  [ http-nio-8567-exec-6:356181 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:08:02  [ http-nio-8567-exec-6:356294 ] - [ WARN ]  UpdatePolicyById is fail, the fail message is=PUT http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12 returned a response status of 400 Bad Request
+2017-10-12 15:08:44  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 12984 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 15:08:44  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 15:08:44  [ main:55 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445b295b: startup date [Thu Oct 12 15:08:44 CST 2017]; root of context hierarchy
+2017-10-12 15:08:44  [ background-preinit:330 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 15:08:45  [ main:1319 ] - [ INFO ]  start load properties .......
+2017-10-12 15:08:45  [ main:1320 ] - [ INFO ]  load properties is finished .........
+2017-10-12 15:08:45  [ main:1853 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 15:08:46  [ localhost-startStop-1:2053 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2001 ms
+2017-10-12 15:08:46  [ localhost-startStop-1:2271 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 15:08:46  [ localhost-startStop-1:2277 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 15:08:46  [ localhost-startStop-1:2278 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 15:08:46  [ localhost-startStop-1:2279 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 15:08:46  [ localhost-startStop-1:2279 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 15:08:46  [ main:2781 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445b295b: startup date [Thu Oct 12 15:08:44 CST 2017]; root of context hierarchy
+2017-10-12 15:08:46  [ main:2862 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 15:08:46  [ main:2864 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:08:46  [ main:2866 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 15:08:46  [ main:2866 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 15:08:46  [ main:2868 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 15:08:46  [ main:2869 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 15:08:46  [ main:2869 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:08:46  [ main:2870 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 15:08:46  [ main:2870 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:08:46  [ main:2871 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:08:46  [ main:2872 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 15:08:46  [ main:2872 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 15:08:46  [ main:2876 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 15:08:46  [ main:2877 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 15:08:46  [ main:2921 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:08:46  [ main:2922 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:08:46  [ main:2979 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:08:47  [ main:3794 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 15:08:47  [ main:3878 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 15:08:47  [ main:3883 ] - [ INFO ]  Started Main in 4.119 seconds (JVM running for 5.968)
+2017-10-12 15:08:47  [ http-nio-8567-exec-2:3938 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 15:08:47  [ http-nio-8567-exec-2:3974 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2017-10-12 15:08:48  [ http-nio-8567-exec-2:4000 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 15:08:48  [ http-nio-8567-exec-2:4021 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:08:48  [ http-nio-8567-exec-2:4608 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:09:31  [ http-nio-8567-exec-2:47782 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:09:44  [ http-nio-8567-exec-2:60463 ] - [ WARN ]  UpdatePolicyById is fail, the fail message is=PUT http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12 returned a response status of 400 Bad Request
+2017-10-12 15:12:46  [ http-nio-8567-exec-7:242204 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:12:46  [ http-nio-8567-exec-7:242205 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:12:46  [ http-nio-8567-exec-7:242493 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:12:50  [ http-nio-8567-exec-7:246093 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:12:50  [ http-nio-8567-exec-7:246454 ] - [ WARN ]  UpdatePolicyById is fail, the fail message is=PUT http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12 returned a response status of 400 Bad Request
+2017-10-12 15:18:35  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 14204 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 15:18:35  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 15:18:36  [ main:46 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 15:18:36 CST 2017]; root of context hierarchy
+2017-10-12 15:18:36  [ background-preinit:316 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 15:18:37  [ main:1039 ] - [ INFO ]  start load properties .......
+2017-10-12 15:18:37  [ main:1039 ] - [ INFO ]  load properties is finished .........
+2017-10-12 15:18:37  [ main:1444 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 15:18:37  [ localhost-startStop-1:1617 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1573 ms
+2017-10-12 15:18:37  [ localhost-startStop-1:1819 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 15:18:37  [ localhost-startStop-1:1826 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 15:18:37  [ localhost-startStop-1:1828 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 15:18:37  [ localhost-startStop-1:1828 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 15:18:37  [ localhost-startStop-1:1829 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 15:18:38  [ main:2257 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 15:18:36 CST 2017]; root of context hierarchy
+2017-10-12 15:18:38  [ main:2323 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 15:18:38  [ main:2325 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:18:38  [ main:2326 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 15:18:38  [ main:2327 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 15:18:38  [ main:2329 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 15:18:38  [ main:2329 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 15:18:38  [ main:2330 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:18:38  [ main:2330 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:18:38  [ main:2331 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 15:18:38  [ main:2332 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 15:18:38  [ main:2332 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:18:38  [ main:2333 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 15:18:38  [ main:2336 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 15:18:38  [ main:2337 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 15:18:38  [ main:2371 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:18:38  [ main:2371 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:18:38  [ main:2412 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:18:38  [ main:2958 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 15:18:38  [ main:3010 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 15:18:38  [ main:3013 ] - [ INFO ]  Started Main in 3.229 seconds (JVM running for 3.617)
+2017-10-12 15:18:48  [ http-nio-8567-exec-1:12371 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 15:18:48  [ http-nio-8567-exec-1:12390 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-10-12 15:18:48  [ http-nio-8567-exec-1:12409 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:18:48  [ http-nio-8567-exec-1:12430 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:18:49  [ http-nio-8567-exec-1:13785 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:18:49  [ http-nio-8567-exec-1:13918 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:19:14  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 16400 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 15:19:14  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 15:19:14  [ main:49 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 15:19:14 CST 2017]; root of context hierarchy
+2017-10-12 15:19:14  [ background-preinit:303 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 15:19:15  [ main:1005 ] - [ INFO ]  start load properties .......
+2017-10-12 15:19:15  [ main:1006 ] - [ INFO ]  load properties is finished .........
+2017-10-12 15:19:15  [ main:1389 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 15:19:16  [ localhost-startStop-1:1552 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1506 ms
+2017-10-12 15:19:16  [ localhost-startStop-1:1709 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 15:19:16  [ localhost-startStop-1:1715 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 15:19:16  [ localhost-startStop-1:1716 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 15:19:16  [ localhost-startStop-1:1716 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 15:19:16  [ localhost-startStop-1:1717 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 15:19:16  [ main:2110 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 15:19:14 CST 2017]; root of context hierarchy
+2017-10-12 15:19:16  [ main:2173 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 15:19:16  [ main:2175 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 15:19:16  [ main:2176 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 15:19:16  [ main:2177 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:19:16  [ main:2179 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:19:16  [ main:2180 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 15:19:16  [ main:2180 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 15:19:16  [ main:2181 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 15:19:16  [ main:2182 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:19:16  [ main:2182 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:19:16  [ main:2183 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 15:19:16  [ main:2183 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 15:19:16  [ main:2187 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 15:19:16  [ main:2188 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 15:19:16  [ main:2221 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:19:16  [ main:2222 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:19:16  [ main:2260 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:19:17  [ main:2802 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 15:19:17  [ main:2863 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 15:19:17  [ main:2869 ] - [ INFO ]  Started Main in 3.091 seconds (JVM running for 3.477)
+2017-10-12 15:19:21  [ http-nio-8567-exec-1:6597 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 15:19:21  [ http-nio-8567-exec-1:6619 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2017-10-12 15:19:21  [ http-nio-8567-exec-1:6639 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:19:21  [ http-nio-8567-exec-1:6658 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:19:24  [ http-nio-8567-exec-1:10028 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:19:24  [ http-nio-8567-exec-1:10052 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:20:34  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 9592 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 15:20:34  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 15:20:34  [ main:52 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445b295b: startup date [Thu Oct 12 15:20:34 CST 2017]; root of context hierarchy
+2017-10-12 15:20:35  [ background-preinit:330 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 15:20:35  [ main:1148 ] - [ INFO ]  start load properties .......
+2017-10-12 15:20:35  [ main:1148 ] - [ INFO ]  load properties is finished .........
+2017-10-12 15:20:36  [ main:1615 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 15:20:36  [ localhost-startStop-1:1816 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1767 ms
+2017-10-12 15:20:36  [ localhost-startStop-1:2001 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 15:20:36  [ localhost-startStop-1:2009 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 15:20:36  [ localhost-startStop-1:2010 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 15:20:36  [ localhost-startStop-1:2011 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 15:20:36  [ localhost-startStop-1:2011 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 15:20:37  [ main:2484 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445b295b: startup date [Thu Oct 12 15:20:34 CST 2017]; root of context hierarchy
+2017-10-12 15:20:37  [ main:2563 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 15:20:37  [ main:2565 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:20:37  [ main:2566 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 15:20:37  [ main:2567 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 15:20:37  [ main:2568 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 15:20:37  [ main:2569 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 15:20:37  [ main:2569 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 15:20:37  [ main:2569 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:20:37  [ main:2570 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:20:37  [ main:2570 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:20:37  [ main:2570 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 15:20:37  [ main:2571 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 15:20:37  [ main:2574 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 15:20:37  [ main:2575 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 15:20:37  [ main:2635 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:20:37  [ main:2637 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:20:37  [ main:2717 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:20:38  [ main:3529 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 15:20:38  [ main:3621 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 15:20:38  [ main:3628 ] - [ INFO ]  Started Main in 3.871 seconds (JVM running for 4.402)
+2017-10-12 15:20:45  [ http-nio-8567-exec-2:10403 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 15:20:45  [ http-nio-8567-exec-2:10429 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2017-10-12 15:20:45  [ http-nio-8567-exec-2:10450 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:20:45  [ http-nio-8567-exec-2:10466 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:20:45  [ http-nio-8567-exec-2:11056 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:21:39  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 6200 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 15:21:39  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 15:21:39  [ main:48 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 15:21:39 CST 2017]; root of context hierarchy
+2017-10-12 15:21:40  [ background-preinit:312 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 15:21:40  [ main:1014 ] - [ INFO ]  start load properties .......
+2017-10-12 15:21:40  [ main:1015 ] - [ INFO ]  load properties is finished .........
+2017-10-12 15:21:41  [ main:1411 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 15:21:41  [ localhost-startStop-1:1589 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1544 ms
+2017-10-12 15:21:41  [ localhost-startStop-1:1753 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 15:21:41  [ localhost-startStop-1:1759 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 15:21:41  [ localhost-startStop-1:1760 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 15:21:41  [ localhost-startStop-1:1760 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 15:21:41  [ localhost-startStop-1:1760 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 15:21:42  [ main:2362 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 15:21:39 CST 2017]; root of context hierarchy
+2017-10-12 15:21:42  [ main:2425 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 15:21:42  [ main:2427 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 15:21:42  [ main:2428 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:21:42  [ main:2429 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 15:21:42  [ main:2430 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:21:42  [ main:2431 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:21:42  [ main:2432 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 15:21:42  [ main:2433 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 15:21:42  [ main:2435 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 15:21:42  [ main:2436 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 15:21:42  [ main:2437 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 15:21:42  [ main:2437 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 15:21:42  [ main:2441 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 15:21:42  [ main:2441 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 15:21:42  [ main:2472 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:21:42  [ main:2472 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:21:42  [ main:2512 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 15:21:42  [ main:3040 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 15:21:42  [ main:3100 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 15:21:42  [ main:3103 ] - [ INFO ]  Started Main in 3.329 seconds (JVM running for 3.721)
+2017-10-12 15:21:46  [ http-nio-8567-exec-1:6476 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 15:21:46  [ http-nio-8567-exec-1:6500 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2017-10-12 15:21:46  [ http-nio-8567-exec-1:6519 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:21:46  [ http-nio-8567-exec-1:6538 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:21:49  [ http-nio-8567-exec-1:9929 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":18,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:21:49  [ http-nio-8567-exec-1:9942 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:21:50  [ http-nio-8567-exec-1:10537 ] - [ INFO ]  UpdatePolicyById is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Thu Jan 01 00:00:00 CST 230634989} version={19} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={7bf7501145851f271c855b5c73b3ca61} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }RangerPolicyItemAccess={type={update} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 15:25:04  [ http-nio-8567-exec-4:204759 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:25:04  [ http-nio-8567-exec-4:204761 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:25:04  [ http-nio-8567-exec-4:204903 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":20,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:25:04  [ http-nio-8567-exec-4:204906 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:25:04  [ http-nio-8567-exec-4:205134 ] - [ INFO ]  UpdatePolicyById is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Tue Jan 01 00:00:00 CST 230829811} version={21} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={7bf7501145851f271c855b5c73b3ca61} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 15:25:22  [ http-nio-8567-exec-6:223108 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 15:25:22  [ http-nio-8567-exec-6:223110 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:25:22  [ http-nio-8567-exec-6:223213 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":22,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 15:25:22  [ http-nio-8567-exec-6:223214 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 15:25:23  [ http-nio-8567-exec-6:223398 ] - [ INFO ]  UpdatePolicyById is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Thu Jan 01 00:00:00 CST 230848088} version={23} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={7bf7501145851f271c855b5c73b3ca61} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 17:09:29  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 11328 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 17:09:29  [ main:3 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 17:09:29  [ main:52 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445b295b: startup date [Thu Oct 12 17:09:29 CST 2017]; root of context hierarchy
+2017-10-12 17:09:30  [ background-preinit:341 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 17:09:31  [ main:1187 ] - [ INFO ]  start load properties .......
+2017-10-12 17:09:31  [ main:1188 ] - [ INFO ]  load properties is finished .........
+2017-10-12 17:09:31  [ main:1724 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 17:09:31  [ localhost-startStop-1:1946 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1897 ms
+2017-10-12 17:09:32  [ localhost-startStop-1:2160 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 17:09:32  [ localhost-startStop-1:2166 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 17:09:32  [ localhost-startStop-1:2166 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 17:09:32  [ localhost-startStop-1:2167 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 17:09:32  [ localhost-startStop-1:2167 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 17:09:32  [ main:2667 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445b295b: startup date [Thu Oct 12 17:09:29 CST 2017]; root of context hierarchy
+2017-10-12 17:09:32  [ main:2767 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 17:09:32  [ main:2769 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 17:09:32  [ main:2771 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 17:09:32  [ main:2772 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:09:32  [ main:2774 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 17:09:32  [ main:2774 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 17:09:32  [ main:2775 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:09:32  [ main:2776 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 17:09:32  [ main:2776 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:09:32  [ main:2777 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 17:09:32  [ main:2777 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 17:09:32  [ main:2778 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:09:32  [ main:2782 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 17:09:32  [ main:2783 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 17:09:32  [ main:2830 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:09:32  [ main:2831 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:09:32  [ main:2899 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:09:33  [ main:3617 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 17:09:33  [ main:3706 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 17:09:33  [ main:3713 ] - [ INFO ]  Started Main in 3.953 seconds (JVM running for 4.481)
+2017-10-12 17:10:17  [ http-nio-8567-exec-2:48083 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 17:10:18  [ http-nio-8567-exec-2:48113 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2017-10-12 17:10:18  [ http-nio-8567-exec-2:48136 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 17:10:18  [ http-nio-8567-exec-2:48160 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hadoop/policy/12
+2017-10-12 17:10:18  [ http-nio-8567-exec-2:48987 ] - [ WARN ]  getPolicyByName is fail, the response message is :{"httpStatusCode":404,"statusCode":0}
+2017-10-12 17:10:54  [ http-nio-8567-exec-1:85044 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-12 17:10:54  [ http-nio-8567-exec-1:85045 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hadoop/policy/project2
+2017-10-12 17:10:55  [ http-nio-8567-exec-1:85286 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":60,"isEnabled":true,"version":3,"service":"hdp_dev_hadoop","name":"project2","policyType":0,"isAuditEnabled":true,"resources":{"path":{"values":["/apps/hive/warehouse/bmsoft_zyml.db","/apps/hive/warehouse/admin.db/t_hbase10","/apps/hbase/data/data/default/t_hbase1","/apps/hive/warehouse/bmsoft_zyml.db/t_hbase1","/tmp"],"isExcludes":false,"isRecursive":true}},"policyItems":[{"accesses":[{"type":"read","isAllowed":true},{"type":"write","isAllowed":true},{"type":"execute","isAllowed":true}],"users":["project2","bmsoft"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 17:43:42  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 16572 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 17:43:42  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 17:43:42  [ main:45 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 17:43:42 CST 2017]; root of context hierarchy
+2017-10-12 17:43:42  [ background-preinit:325 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 17:43:43  [ main:1000 ] - [ INFO ]  start load properties .......
+2017-10-12 17:43:43  [ main:1002 ] - [ INFO ]  load properties is finished .........
+2017-10-12 17:43:43  [ main:1437 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 17:43:43  [ localhost-startStop-1:1601 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1558 ms
+2017-10-12 17:43:43  [ localhost-startStop-1:1780 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 17:43:44  [ localhost-startStop-1:1785 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 17:43:44  [ localhost-startStop-1:1786 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 17:43:44  [ localhost-startStop-1:1786 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 17:43:44  [ localhost-startStop-1:1787 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 17:43:44  [ main:2191 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 17:43:42 CST 2017]; root of context hierarchy
+2017-10-12 17:43:44  [ main:2250 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 17:43:44  [ main:2252 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 17:43:44  [ main:2253 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 17:43:44  [ main:2254 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:43:44  [ main:2255 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:43:44  [ main:2256 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 17:43:44  [ main:2257 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 17:43:44  [ main:2257 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 17:43:44  [ main:2258 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:43:44  [ main:2258 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 17:43:44  [ main:2258 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 17:43:44  [ main:2259 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:43:44  [ main:2262 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 17:43:44  [ main:2263 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 17:43:44  [ main:2293 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:43:44  [ main:2294 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:43:44  [ main:2335 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:43:45  [ main:2876 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 17:43:45  [ main:3015 ] - [ INFO ]  
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-12 17:43:45  [ main:3019 ] - [ ERROR ]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8567 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8567, or configure this application to listen on another port.
+
+2017-10-12 17:43:45  [ main:3061 ] - [ INFO ]  Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 17:43:42 CST 2017]; root of context hierarchy
+2017-10-12 17:43:45  [ main:3079 ] - [ INFO ]  Unregistering JMX-exposed beans on shutdown
+2017-10-12 17:44:16  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 2484 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 17:44:16  [ main:3 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 17:44:16  [ main:47 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 17:44:16 CST 2017]; root of context hierarchy
+2017-10-12 17:44:16  [ background-preinit:307 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 17:44:17  [ main:1019 ] - [ INFO ]  start load properties .......
+2017-10-12 17:44:17  [ main:1020 ] - [ INFO ]  load properties is finished .........
+2017-10-12 17:44:17  [ main:1458 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 17:44:17  [ localhost-startStop-1:1632 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1588 ms
+2017-10-12 17:44:17  [ localhost-startStop-1:1810 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 17:44:17  [ localhost-startStop-1:1819 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 17:44:17  [ localhost-startStop-1:1820 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 17:44:17  [ localhost-startStop-1:1821 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 17:44:17  [ localhost-startStop-1:1821 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 17:44:18  [ main:2224 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 17:44:16 CST 2017]; root of context hierarchy
+2017-10-12 17:44:18  [ main:2281 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 17:44:18  [ main:2282 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 17:44:18  [ main:2283 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 17:44:18  [ main:2284 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:44:18  [ main:2285 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 17:44:18  [ main:2286 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 17:44:18  [ main:2287 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:44:18  [ main:2287 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 17:44:18  [ main:2287 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:44:18  [ main:2288 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:44:18  [ main:2288 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 17:44:18  [ main:2288 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 17:44:18  [ main:2292 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 17:44:18  [ main:2293 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 17:44:18  [ main:2322 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:44:18  [ main:2323 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:44:18  [ main:2358 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:44:18  [ main:2937 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 17:44:19  [ main:3013 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 17:44:19  [ main:3017 ] - [ INFO ]  Started Main in 3.235 seconds (JVM running for 3.627)
+2017-10-12 17:45:01  [ http-nio-8567-exec-2:45696 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 17:45:01  [ http-nio-8567-exec-2:45719 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2017-10-12 17:45:01  [ http-nio-8567-exec-2:45740 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 17:45:01  [ http-nio-8567-exec-2:45763 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/1
+2017-10-12 17:45:02  [ http-nio-8567-exec-2:46575 ] - [ WARN ]  getPolicyByName is fail, the response message is :{"httpStatusCode":404,"statusCode":0}
+2017-10-12 17:45:02  [ http-nio-8567-exec-2:46602 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 17:54:19  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 4252 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 17:54:19  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 17:54:19  [ main:48 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 17:54:19 CST 2017]; root of context hierarchy
+2017-10-12 17:54:20  [ background-preinit:309 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 17:54:20  [ main:1016 ] - [ INFO ]  start load properties .......
+2017-10-12 17:54:20  [ main:1017 ] - [ INFO ]  load properties is finished .........
+2017-10-12 17:54:21  [ main:1483 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 17:54:21  [ localhost-startStop-1:1684 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1639 ms
+2017-10-12 17:54:21  [ localhost-startStop-1:1853 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 17:54:21  [ localhost-startStop-1:1858 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 17:54:21  [ localhost-startStop-1:1859 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 17:54:21  [ localhost-startStop-1:1859 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 17:54:21  [ localhost-startStop-1:1860 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 17:54:22  [ main:2298 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 17:54:19 CST 2017]; root of context hierarchy
+2017-10-12 17:54:22  [ main:2357 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 17:54:22  [ main:2359 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 17:54:22  [ main:2361 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:54:22  [ main:2361 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 17:54:22  [ main:2362 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:54:22  [ main:2364 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:54:22  [ main:2364 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 17:54:22  [ main:2365 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 17:54:22  [ main:2365 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 17:54:22  [ main:2366 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 17:54:22  [ main:2366 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 17:54:22  [ main:2367 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 17:54:22  [ main:2371 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 17:54:22  [ main:2372 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 17:54:22  [ main:2405 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:54:22  [ main:2406 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:54:22  [ main:2454 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 17:54:22  [ main:3044 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 17:54:22  [ main:3097 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 17:54:23  [ main:3101 ] - [ INFO ]  Started Main in 3.316 seconds (JVM running for 3.728)
+2017-10-12 17:54:32  [ http-nio-8567-exec-1:12378 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 17:54:32  [ http-nio-8567-exec-1:12400 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2017-10-12 17:54:32  [ http-nio-8567-exec-1:12418 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 17:54:32  [ http-nio-8567-exec-1:12433 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 17:54:32  [ http-nio-8567-exec-1:12833 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":24,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 17:54:32  [ http-nio-8567-exec-1:12848 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 17:54:33  [ http-nio-8567-exec-1:13398 ] - [ INFO ]  UpdatePolicyById is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Fri Jan 01 00:00:00 CST 239797897} version={25} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={7bf7501145851f271c855b5c73b3ca61} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 17:54:33  [ http-nio-8567-exec-2:13431 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 17:54:33  [ http-nio-8567-exec-2:13432 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 17:54:33  [ http-nio-8567-exec-2:13585 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":25,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 17:54:33  [ http-nio-8567-exec-2:13587 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 17:54:33  [ http-nio-8567-exec-2:13910 ] - [ INFO ]  UpdatePolicyById is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Mon Jan 01 00:00:00 CST 239798587} version={26} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={47348af5a7f732cf54fda9b25c384163} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 17:57:07  [ http-nio-8567-exec-3:168093 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 17:57:07  [ http-nio-8567-exec-3:168095 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 17:57:08  [ http-nio-8567-exec-3:168208 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":27,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"create","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 17:57:08  [ http-nio-8567-exec-3:168209 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 17:57:08  [ http-nio-8567-exec-3:168474 ] - [ INFO ]  UpdatePolicyById is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Sat Jan 01 00:00:00 CST 239953177} version={28} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={7bf7501145851f271c855b5c73b3ca61} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 17:57:08  [ http-nio-8567-exec-5:168480 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 17:57:08  [ http-nio-8567-exec-5:168482 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/testupdate
+2017-10-12 17:57:08  [ http-nio-8567-exec-5:168657 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":58,"isEnabled":true,"version":3,"service":"hdp_dev_hive","name":"testupdate","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["admin","test1","test33","bmsoft_test","hbase","hdfs_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["t_hbase1","teste","test22"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true},{"type":"create","isAllowed":true}],"users":["bmsoft_test","hbase","hdfs"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 17:57:08  [ http-nio-8567-exec-5:168658 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/testupdate
+2017-10-12 17:57:08  [ http-nio-8567-exec-5:168901 ] - [ INFO ]  UpdatePolicyById is success, the police message is=RangerPolicy={id={58} guid={531502a8-df79-46f8-af86-73a49ccc9b08} isEnabled={true} createdBy={Admin} updatedBy={Admin} createTime={Fri Jun 29 19:08:16 CST 233211359} updateTime={Thu Jan 01 00:00:00 CST 239953615} version={4} service={hdp_dev_hive} name={testupdate} policyType={0} description={null} resourceSignature={d3bd708926c54668a3827ff70c81777c} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }RangerPolicyItemAccess={type={update} isAllowed={true} }} users={bmsoft_test hbase hdfs } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 18:03:15  [ main:1 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 16648 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-12 18:03:15  [ main:3 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-12 18:03:15  [ main:51 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 18:03:15 CST 2017]; root of context hierarchy
+2017-10-12 18:03:16  [ background-preinit:317 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-12 18:03:16  [ main:1037 ] - [ INFO ]  start load properties .......
+2017-10-12 18:03:16  [ main:1038 ] - [ INFO ]  load properties is finished .........
+2017-10-12 18:03:17  [ main:1486 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-12 18:03:17  [ localhost-startStop-1:1694 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1646 ms
+2017-10-12 18:03:17  [ localhost-startStop-1:1905 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-12 18:03:17  [ localhost-startStop-1:1911 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-12 18:03:17  [ localhost-startStop-1:1912 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-12 18:03:17  [ localhost-startStop-1:1913 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-12 18:03:17  [ localhost-startStop-1:1914 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-12 18:03:18  [ main:2338 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Thu Oct 12 18:03:15 CST 2017]; root of context hierarchy
+2017-10-12 18:03:18  [ main:2397 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-12 18:03:18  [ main:2399 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 18:03:18  [ main:2400 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-12 18:03:18  [ main:2401 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-12 18:03:18  [ main:2402 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-12 18:03:18  [ main:2403 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-12 18:03:18  [ main:2403 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 18:03:18  [ main:2404 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 18:03:18  [ main:2404 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-12 18:03:18  [ main:2405 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-12 18:03:18  [ main:2406 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-12 18:03:18  [ main:2406 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-12 18:03:18  [ main:2409 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-12 18:03:18  [ main:2410 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-12 18:03:18  [ main:2440 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 18:03:18  [ main:2440 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 18:03:18  [ main:2482 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-12 18:03:18  [ main:3044 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-12 18:03:18  [ main:3109 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-12 18:03:18  [ main:3113 ] - [ INFO ]  Started Main in 3.341 seconds (JVM running for 3.733)
+2017-10-12 18:03:25  [ http-nio-8567-exec-1:9310 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-12 18:03:25  [ http-nio-8567-exec-1:9329 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-10-12 18:03:25  [ http-nio-8567-exec-1:9346 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 18:03:25  [ http-nio-8567-exec-1:9364 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 18:03:25  [ http-nio-8567-exec-1:9732 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":28,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 18:03:25  [ http-nio-8567-exec-1:9745 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 18:03:26  [ http-nio-8567-exec-1:10285 ] - [ INFO ]  UpdatePolicyByName is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Sun Jan 01 00:00:00 CST 240330654} version={29} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={47348af5a7f732cf54fda9b25c384163} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 18:03:26  [ http-nio-8567-exec-3:10319 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 18:03:26  [ http-nio-8567-exec-3:10320 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/testupdate
+2017-10-12 18:03:26  [ http-nio-8567-exec-3:10529 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":58,"isEnabled":true,"version":4,"service":"hdp_dev_hive","name":"testupdate","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["admin","test1","test33","bmsoft_test","hbase","hdfs_autoCreateDb","bmsoft_test,hbase,hdfs_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["t_hbase1","teste","test22"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true}],"users":["bmsoft_test","hbase","hdfs"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 18:03:52  [ http-nio-8567-exec-4:36346 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 18:03:52  [ http-nio-8567-exec-4:36347 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 18:03:52  [ http-nio-8567-exec-4:36464 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":9,"isEnabled":true,"version":29,"service":"hdp_dev_hive","name":"12","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["test1","hbase_autoCreateDb","hive","hive_autoCreateDb","hive_autoCreateDb","hive_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["test","test2","t"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true}],"users":["hive"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}
+2017-10-12 18:03:52  [ http-nio-8567-exec-4:36465 ] - [ INFO ]  UpdatePolicyById of reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/12
+2017-10-12 18:03:52  [ http-nio-8567-exec-4:36717 ] - [ INFO ]  UpdatePolicyByName is success, the police message is=RangerPolicy={id={9} guid={88528f6e-e138-4d51-be12-06002516d653} isEnabled={true} createdBy={hive hive} updatedBy={Admin} createTime={Fri Jul 16 19:17:34 CST 126584641} updateTime={Fri Jan 01 00:00:00 CST 240357249} version={30} service={hdp_dev_hive} name={12} policyType={0} description={null} resourceSignature={93de9babc21acdb123ddcaa4540af480} isAuditEnabled={true} resources={} policyItems={RangerPolicyItem={accessTypes={RangerPolicyItemAccess={type={select} isAllowed={true} }} users={hive } groups={} conditions={} delegateAdmin={false} }} denyPolicyItems={} allowExceptions={} denyExceptions={} dataMaskPolicyItems={} rowFilterPolicyItems={} }
+2017-10-12 18:03:52  [ http-nio-8567-exec-6:36722 ] - [ INFO ]  the request ip is : 127.0.0.1
+2017-10-12 18:03:52  [ http-nio-8567-exec-6:36723 ] - [ INFO ]  getPolicyByName, reqUrl=http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hive/policy/testupdate
+2017-10-12 18:03:52  [ http-nio-8567-exec-6:36851 ] - [ INFO ]  getPolicyByName is success, the response message is :{"id":58,"isEnabled":true,"version":4,"service":"hdp_dev_hive","name":"testupdate","policyType":0,"isAuditEnabled":true,"resources":{"database":{"values":["admin","test1","test33","bmsoft_test","hbase","hdfs_autoCreateDb","bmsoft_test,hbase,hdfs_autoCreateDb"],"isExcludes":false,"isRecursive":false},"column":{"values":["*"],"isExcludes":false,"isRecursive":false},"table":{"values":["t_hbase1","teste","test22"],"isExcludes":false,"isRecursive":false}},"policyItems":[{"accesses":[{"type":"select","isAllowed":true},{"type":"update","isAllowed":true}],"users":["bmsoft_test","hbase","hdfs"],"groups":[],"conditions":[],"delegateAdmin":false}],"denyPolicyItems":[],"allowExceptions":[],"denyExceptions":[],"dataMaskPolicyItems":[],"rowFilterPolicyItems":[]}

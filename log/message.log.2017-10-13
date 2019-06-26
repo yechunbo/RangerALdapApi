@@ -1,0 +1,120 @@
+2017-10-13 11:29:28  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 11:29:28  [ main:7 ] - [ INFO ]  load properties is finished .........
+2017-10-13 11:29:39  [ main:10451 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 11:34:27  [ main:299244 ] - [ WARN ]  getUserVisitInfo is fail, the response message is :{"httpStatusCode":406,"statusCode":0}
+2017-10-13 11:36:55  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 11:36:55  [ main:5 ] - [ INFO ]  load properties is finished .........
+2017-10-13 11:36:59  [ main:3698 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 11:38:01  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 11:38:01  [ main:3 ] - [ INFO ]  load properties is finished .........
+2017-10-13 11:38:01  [ main:4 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 11:44:40  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 11:44:40  [ main:6 ] - [ INFO ]  load properties is finished .........
+2017-10-13 11:44:43  [ main:3803 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 11:46:20  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 11:46:20  [ main:4 ] - [ INFO ]  load properties is finished .........
+2017-10-13 11:46:20  [ main:5 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 11:46:35  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 11:46:35  [ main:4 ] - [ INFO ]  load properties is finished .........
+2017-10-13 11:46:35  [ main:4 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 12:39:51  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:39:51  [ main:13 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:39:51  [ main:13 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 12:40:38  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:40:38  [ main:4 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:40:38  [ main:5 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 12:43:22  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:43:22  [ main:5 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:43:22  [ main:5 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 12:44:28  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:44:28  [ main:3 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:44:28  [ main:3 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507865046834
+2017-10-13 12:45:24  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:45:24  [ main:5 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:45:24  [ main:6 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507869924299
+2017-10-13 12:46:12  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:46:12  [ main:4 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:46:12  [ main:5 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507869972485
+2017-10-13 12:49:31  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:49:31  [ main:4 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:49:31  [ main:5 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507870171902
+2017-10-13 12:49:39  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:49:39  [ main:3 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:49:39  [ main:4 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507870179178
+2017-10-13 12:49:43  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:49:43  [ main:4 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:49:43  [ main:4 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507870183640
+2017-10-13 12:49:52  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:49:52  [ main:4 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:49:52  [ main:4 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507870192725
+2017-10-13 12:50:08  [ main:0 ] - [ INFO ]  start load properties .......
+2017-10-13 12:50:08  [ main:4 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:50:08  [ main:4 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507870208415
+2017-10-13 12:55:45  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 14764 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-13 12:55:45  [ main:7 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-13 12:55:46  [ main:927 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Fri Oct 13 12:55:46 CST 2017]; root of context hierarchy
+2017-10-13 12:55:48  [ background-preinit:2525 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-13 12:55:49  [ main:3972 ] - [ INFO ]  start load properties .......
+2017-10-13 12:55:49  [ main:3972 ] - [ INFO ]  load properties is finished .........
+2017-10-13 12:55:50  [ main:4966 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)
+2017-10-13 12:55:51  [ localhost-startStop-1:5503 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 4604 ms
+2017-10-13 12:55:51  [ localhost-startStop-1:5726 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-13 12:55:51  [ localhost-startStop-1:5734 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-13 12:55:51  [ localhost-startStop-1:5757 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-13 12:55:51  [ localhost-startStop-1:5757 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-13 12:55:51  [ localhost-startStop-1:5757 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-13 12:55:52  [ main:6388 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Fri Oct 13 12:55:46 CST 2017]; root of context hierarchy
+2017-10-13 12:55:52  [ main:6519 ] - [ INFO ]  Mapped "{[/]}" onto public java.lang.String com.bms.Main.getHello()
+2017-10-13 12:55:52  [ main:6521 ] - [ INFO ]  Mapped "{[/delete_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.deleteLdapUser(java.lang.String)
+2017-10-13 12:55:52  [ main:6523 ] - [ INFO ]  Mapped "{[/create_ldap_user]}" onto java.lang.Integer com.bms.controller.LdapController.createLdapUser(java.lang.String,java.lang.String,java.lang.String)
+2017-10-13 12:55:52  [ main:6524 ] - [ INFO ]  Mapped "{[/query_ldap_user]}" onto java.util.List<java.lang.String> com.bms.controller.LdapController.queryLdapUser(java.lang.String,java.lang.String)
+2017-10-13 12:55:52  [ main:6526 ] - [ INFO ]  Mapped "{[/create_policy]}" onto java.lang.Boolean com.bms.controller.RangerController.createPolice(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-13 12:55:52  [ main:6528 ] - [ INFO ]  Mapped "{[/update_policy_by_id]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyById(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-13 12:55:52  [ main:6529 ] - [ INFO ]  Mapped "{[/get_policy_by_name]}" onto java.lang.String com.bms.controller.RangerController.getPolicyByName(java.lang.String)
+2017-10-13 12:55:52  [ main:6531 ] - [ INFO ]  Mapped "{[/query_valid_police]}" onto java.lang.String com.bms.controller.RangerController.queryValidPolice()
+2017-10-13 12:55:52  [ main:6532 ] - [ INFO ]  Mapped "{[/get_user_visit_info]}" onto java.lang.String com.bms.controller.RangerController.getUserVisitInfo(java.lang.String,java.lang.String)
+2017-10-13 12:55:52  [ main:6533 ] - [ INFO ]  Mapped "{[/update_policy_by_name]}" onto java.lang.Boolean com.bms.controller.RangerController.updatePolicyByName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-10-13 12:55:52  [ main:6534 ] - [ INFO ]  Mapped "{[/get_cluster_cpu_info]}" onto java.lang.String com.bms.controller.RangerController.getClusterCPUInfo()
+2017-10-13 12:55:52  [ main:6538 ] - [ INFO ]  Mapped "{[/delete_police_by_police_id]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceId(java.lang.String)
+2017-10-13 12:55:52  [ main:6539 ] - [ INFO ]  Mapped "{[/delete_police_by_police_name]}" onto java.lang.Boolean com.bms.controller.RangerController.deletePoliceByPoliceName(java.lang.String)
+2017-10-13 12:55:52  [ main:6543 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-13 12:55:52  [ main:6544 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-13 12:55:52  [ main:6587 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 12:55:52  [ main:6587 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 12:55:52  [ main:6620 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 12:55:53  [ main:7950 ] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-10-13 12:55:54  [ main:8367 ] - [ INFO ]  Tomcat started on port(s): 8567 (http)
+2017-10-13 12:55:54  [ main:8377 ] - [ INFO ]  Started Main in 9.556 seconds (JVM running for 11.229)
+2017-10-13 12:56:22  [ http-nio-8567-exec-1:36510 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-13 12:56:22  [ http-nio-8567-exec-1:36534 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2017-10-13 12:56:22  [ http-nio-8567-exec-1:36597 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 12:56:25  [ http-nio-8567-exec-2:40054 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 12:56:25  [ http-nio-8567-exec-2:40056 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507870585827
+2017-10-13 12:56:28  [ http-nio-8567-exec-3:42862 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 12:56:28  [ http-nio-8567-exec-3:42863 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507870588634
+2017-10-13 13:02:08  [ http-nio-8567-exec-4:382251 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:02:08  [ http-nio-8567-exec-4:382252 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507870928023
+2017-10-13 13:02:11  [ http-nio-8567-exec-7:385490 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:02:11  [ http-nio-8567-exec-7:385491 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507870931262
+2017-10-13 13:06:05  [ http-nio-8567-exec-10:619522 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:06:05  [ http-nio-8567-exec-10:619523 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871165294
+2017-10-13 13:06:51  [ http-nio-8567-exec-2:665270 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:06:51  [ http-nio-8567-exec-2:665271 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871211042
+2017-10-13 13:06:53  [ http-nio-8567-exec-3:667856 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:06:53  [ http-nio-8567-exec-3:667856 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871213627
+2017-10-13 13:08:50  [ http-nio-8567-exec-4:785187 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:08:50  [ http-nio-8567-exec-4:785187 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871330958
+2017-10-13 13:08:53  [ http-nio-8567-exec-7:787518 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:08:53  [ http-nio-8567-exec-7:787519 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871333290
+2017-10-13 13:09:09  [ http-nio-8567-exec-9:804186 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:09:09  [ http-nio-8567-exec-9:804186 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871349957
+2017-10-13 13:09:28  [ http-nio-8567-exec-1:822894 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:09:28  [ http-nio-8567-exec-1:822895 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871368666
+2017-10-13 13:09:31  [ http-nio-8567-exec-2:825873 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:09:31  [ http-nio-8567-exec-2:825874 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871371645
+2017-10-13 13:09:33  [ http-nio-8567-exec-3:827403 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:09:33  [ http-nio-8567-exec-3:827403 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871373174
+2017-10-13 13:09:38  [ http-nio-8567-exec-6:833133 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:09:38  [ http-nio-8567-exec-6:833133 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871378904
+2017-10-13 13:09:42  [ http-nio-8567-exec-4:836455 ] - [ INFO ]  the request ip is : 0:0:0:0:0:0:0:1
+2017-10-13 13:09:42  [ http-nio-8567-exec-4:836456 ] - [ INFO ]  getUserVisitInfo, reqUrl=http://hdp39.bmsoft.com:8080/api/v1/clusters/hdp_dev/hosts/hdp39?fields=metrics/cpu&_=1507871382227

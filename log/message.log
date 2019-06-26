@@ -1,0 +1,7 @@
+2017-10-31 18:00:09  [ main:0 ] - [ INFO ]  Starting Main on LAPTOP-E7JSI93O with PID 10060 (D:\javaMarSource\RangerALdapApi\target\classes started by ÔÚÎÝ¶¥³ª¸è in D:\javaMarSource\RangerALdapApi)
+2017-10-31 18:00:09  [ main:3 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2017-10-31 18:00:09  [ main:49 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5204062d: startup date [Tue Oct 31 18:00:09 CST 2017]; root of context hierarchy
+2017-10-31 18:00:09  [ background-preinit:262 ] - [ INFO ]  HV000001: Hibernate Validator 5.3.5.Final
+2017-10-31 18:00:10  [ main:1063 ] - [ INFO ]  start load properties .......
+2017-10-31 18:00:10  [ main:1077 ] - [ INFO ]  load properties is finished .........
+2017-10-31 18:00:10  [ main:1497 ] - [ INFO ]  Tomcat initialized with port(s): 8567 (http)

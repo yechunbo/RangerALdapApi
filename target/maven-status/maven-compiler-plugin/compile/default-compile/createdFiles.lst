@@ -1,0 +1,14 @@
+com\bms\utils\URLInterceptor.class
+com\bms\service\Ranger.class
+com\bms\service\rangerimpl\SupportRangerImpl.class
+com\bms\entity\ResponseResult.class
+com\bms\service\ldapimpl\LdapApiImpl.class
+com\bms\controller\LdapController.class
+com\bms\entity\UpdatePoliceReq.class
+com\bms\service\LdapApi.class
+com\bms\entity\CreatePoliceReq.class
+com\bms\Main.class
+com\bms\service\rangerimpl\RangerImpl.class
+com\bms\utils\PropertyUtil.class
+com\bms\controller\RangerController.class
+com\bms\utils\MyWebAppConfigurer.class

@@ -1,0 +1,15 @@
+2017-10-16 15:47:35  [ main:386 ] - [ ERROR ]  getPolicyByName is fail, the error message is :Illegal character in path at index 81: http://10.194.186.41:6080/service/public/v2/api/service/hdp_dev_hadoop/policy/all - path and the response message is : {"httpStatusCode":0,"statusCode":0}
+2017-10-17 15:40:23  [ main:4386 ] - [ ERROR ]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8567 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8567, or configure this application to listen on another port.
+
